@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Jobs - PakJobs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-briefcase"></i>
+                    PakJobs
+                </a>
+
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="jobs.html" class="active nav-link">All Jobs</a>
+                    <a href="companies.html" class="nav-link">Companies</a>
+                    <a href="#" class="nav-link">Career Advice</a>
+                    <a href="#" class="nav-link">About Us</a>
+                </nav>
+
+                <div class="auth-buttons">
+                    <button class="btn btn-outline" id="loginBtn">Login</button>
+                    <button class="btn btn-primary" id="registerBtn">Register</button>
+                </div>
+
+                <button class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- All Jobs Section -->
+    <section class="job-listings" style="padding-top: 100px;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">All Jobs</h2>
+                <span class="job-count" id="allJobsCount">Loading jobs...</span>
+            </div>
+            <p>Browse all available job opportunities with advanced filtering options.</p>
+
+            <!-- Filters for All Jobs Page -->
+            <section class="filters">
+                <div class="container">
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label class="filter-label">Category</label>
+                            <select class="filter-select" id="allJobsCategoryFilter">
+                                <option value="">All Categories</option>
+                                <option value="IT & Software">IT & Software</option>
+                                <option value="Business & Marketing">Business & Marketing</option>
+                                <option value="Finance & Accounting">Finance & Accounting</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label class="filter-label">Location</label>
+                            <select class="filter-select" id="allJobsCityFilter">
+                                <option value="">All Cities</option>
+                                <option value="Karachi">Karachi</option>
+                                <option value="Lahore">Lahore</option>
+                                <option value="Islamabad">Islamabad</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label class="filter-label">Experience</label>
+                            <select class="filter-select" id="allJobsExperienceFilter">
+                                <option value="">Any Experience</option>
+                                <option value="Entry Level">Entry Level</option>
+                                <option value="1-2 years">1-2 years</option>
+                                <option value="3-5 years">3-5 years</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label class="filter-label">Salary Range</label>
+                            <select class="filter-select" id="allJobsSalaryFilter">
+                                <option value="">Any Salary</option>
+                                <option value="0-30000">Up to 30,000 PKR</option>
+                                <option value="30000-60000">30,000 - 60,000 PKR</option>
+                                <option value="60000-100000">60,000 - 100,000 PKR</option>
+                            </select>
+                        </div>
+
+                        <button class="clear-filters" id="allJobsClearFilters">
+                            <i class="fas fa-times"></i> Clear Filters
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="jobs-grid" id="allJobsListingsContainer">
+                <!-- All job cards will be dynamically inserted here -->
+            </div>
+
+            <div class="load-more">
+                <button class="btn btn-outline" id="allJobsLoadMore">
+                    <i class="fas fa-redo"></i> Load More Jobs
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Same footer content as index.html -->
+    </footer>
+
+    <!-- Floating Elements (same as index.html) -->
+    <div class="floating-btns">
+        <button class="floating-btn theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="floating-btn" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/jobs.js"></script>
+</body>
+
+</html>

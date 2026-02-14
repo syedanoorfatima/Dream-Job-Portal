@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies - PakJobs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <i class="fas fa-briefcase"></i>
+                    PakJobs
+                </a>
+
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="jobs.html" class="nav-link">All Jobs</a>
+                    <a href="companies.html" class="active nav-link">Companies</a>
+                    <a href="#" class="nav-link">Career Advice</a>
+                    <a href="#" class="nav-link">About Us</a>
+                </nav>
+
+                <div class="auth-buttons">
+                    <button class="btn btn-outline" id="loginBtn">Login</button>
+                    <button class="btn btn-primary" id="registerBtn">Register</button>
+                </div>
+
+                <button class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Companies Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <h2>Top Companies Hiring</h2>
+            <p>Discover opportunities at Pakistan's leading companies</p>
+
+            <div class="companies-grid">
+                <div class="company-card">
+                    <div class="company-logo">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Systems Limited</h3>
+                    <p>IT Services</p>
+                    <p>Karachi, Lahore, Islamabad</p>
+                    <div class="company-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="rating-value">4.5</span>
+                    </div>
+                    <button class="btn btn-primary" style="margin-top: 15px;">View Jobs</button>
+                </div>
+
+                <!-- Add more company cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Same footer content as index.html -->
+    </footer>
+
+    <!-- Floating Elements (same as index.html) -->
+    <div class="floating-btns">
+        <button class="floating-btn theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="floating-btn" id="backToTop">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/companies.js"></script>
+</body>
+
+</html>

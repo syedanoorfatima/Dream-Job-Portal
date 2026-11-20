@@ -1,50 +1,51 @@
-# 💼 Dream Job Portal — Job Search & Recruitment Platform
+# 💼 Dream Job Portal
 
-A modern and responsive **Job Portal** designed to connect job seekers with employers and make the recruitment process easier and more efficient. The platform provides a clean, user-friendly interface for discovering job opportunities, exploring companies, and managing career searches.
+A responsive job-search and recruitment website built to help job seekers explore opportunities, browse job categories, and learn about companies through a clean, user-friendly interface.
 
-## 🚀 Features
+## ✨ Features
 
-* 🏠 Modern job portal homepage
-* 🔍 Job search functionality
-* 🏷️ Job categories and listings
-* 📍 Location-based job opportunities
-* 💼 Detailed job information
-* 🏢 Company information and profiles
-* 👤 Job seeker-friendly interface
-* 📱 Fully responsive design
-* 🎨 Modern and professional UI
-* ⚡ Interactive JavaScript functionality
-* 🔎 Search and filtering options
-* 📱 Mobile, tablet, and desktop support
+- Job portal landing page and navigation
+- Job listings and job-detail views
+- Job search and filtering interface
+- Job categories and location information
+- Company information pages
+- Responsive layout for desktop, tablet, and mobile
+- Interactive interface powered by JavaScript
 
-## 🛠️ Technologies Used
+## 🧰 Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript
-* Font Awesome
-* Google Fonts
-* Responsive Web Design
+- HTML5
+- CSS3
+- JavaScript
+- Node.js (project includes a server entry point)
+- Font Awesome and Google Fonts
 
-## 🎯 Project Purpose
+## 📁 Project Structure
 
-This project was created as a practical **web development project** to build a modern job-search platform while improving skills in responsive design, JavaScript functionality, UI/UX development, search features, and creating user-friendly web applications.
+The repository includes page files for the home page, jobs, and companies, along with JavaScript and CSS assets. It also contains server-side and seed-data files.
 
-## 👩‍💻 Developer
+## ▶️ Getting Started
 
-**Syeda Noor Fatima**
-MERN Stack Developer | Web Developer
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/syedanoorfatima/Dream-Job-Portal.git
+   ```
+2. Open the project folder.
+3. Review the project configuration and install the dependencies listed in `package.json`, if required:
+   ```bash
+   npm install
+   ```
+4. Follow the start script in `package.json` to run the project. If no start script is configured, open the main HTML page or use a local development server.
 
-### ⭐ Key Learning Areas
+## 🎯 Purpose
 
-* Responsive web development
-* Job portal UI/UX
-* JavaScript functionality
-* DOM manipulation
-* Search and filtering
-* Interactive web components
-* Modern CSS layouts
-* Mobile-first development
-* Git & GitHub workflow
+Built as a practical web-development project to explore job portal layouts, responsive design, JavaScript interactions, and basic server-side project structure.
 
+## 👩‍💻 Author
 
+**Syeda Noor Fatima** — Web Developer
+
+[GitHub Profile](https://github.com/syedanoorfatima) · [LinkedIn](https://www.linkedin.com/in/syeda-noor-fatima-webdeveloper)
+
+---
+*This project is for learning and portfolio demonstration.*

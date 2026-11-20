@@ -2,6 +2,12 @@
 
 A responsive job-search and recruitment website built to help job seekers explore opportunities, browse job categories, and learn about companies through a clean, user-friendly interface.
 
+
+## 🌐 Live Demo
+
+No public demo URL is currently listed for this repository. Add your deployment URL here when it is ready.
+
+
 ## ✨ Features
 
 - Job portal landing page and navigation
@@ -49,3 +55,8 @@ Built as a practical web-development project to explore job portal layouts, resp
 
 ---
 *This project is for learning and portfolio demonstration.*
+
+
+## 📸 Screenshots
+
+Screenshots are not yet included in this repository README. Add genuine screenshots of the running project in a `screenshots/` folder and link them here so visitors can preview the actual interface.
